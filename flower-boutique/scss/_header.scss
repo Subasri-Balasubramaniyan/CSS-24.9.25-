@@ -1,0 +1,23 @@
+.header {
+  background: $primary-color;
+  color: white;
+  padding: 15px;
+  text-align: center;
+
+  nav ul {
+    @include flex-center;
+    list-style: none;
+    gap: 20px;
+    margin-top: 10px;
+
+    li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

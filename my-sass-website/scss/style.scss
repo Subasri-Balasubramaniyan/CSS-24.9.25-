@@ -1,0 +1,19 @@
+@import "variables";
+@import "mixins";
+@import "header";
+@import "about";
+@import "contact";
+
+body {
+  font-family: $font-stack;
+  color: $text-color;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background: $secondary-color;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

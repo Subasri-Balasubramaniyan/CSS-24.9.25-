@@ -1,0 +1,15 @@
+@import "variables";
+@import "mixins";
+@import "header";
+@import "hero";
+@import "products";
+@import "about";
+@import "contact";
+@import "footer";
+
+body {
+  font-family: $font-stack;
+  margin: 0;
+  padding: 0;
+  color: $text-color;
+}

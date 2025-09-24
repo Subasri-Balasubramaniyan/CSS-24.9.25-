@@ -1,0 +1,21 @@
+.contact {
+  padding: 40px;
+  text-align: center;
+
+  form {
+    @include flex-center;
+    flex-direction: column;
+    gap: 15px;
+
+    input {
+      width: 250px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    button {
+      @include button-style($primary-color, white);
+    }
+  }
+}
